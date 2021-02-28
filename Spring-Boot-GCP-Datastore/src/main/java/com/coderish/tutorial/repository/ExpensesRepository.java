@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @RepositoryRestResource(collectionResourceRel = "expenses", path = "expenses")
 public interface ExpensesRepository extends DatastoreRepository<Expense, String> {
 
-    @Query("select * from  |com.rish.tutorial.entity.Expense| where partnumber = @name")
+    @Query("select * from  |com.coderish.tutorial.entity.Expense| where partnumber = @name")
     Slice<Expense> findExpenseByPartnumber(@Param("name") String name, Pageable pageable);
 
 }

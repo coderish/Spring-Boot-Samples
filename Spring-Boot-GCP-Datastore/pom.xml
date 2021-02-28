@@ -5,8 +5,8 @@
     <groupId>com.coderish.tutorial</groupId>
     <artifactId>spring-boot-gcp-datastore</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Spring-Boot-GCP-Datastore</name>
-    <description>Spring-Boot-GCP-Datastore</description>
+    <name>spring-boot-gcp-datastore</name>
+    <description>spring-boot-gcp-datastore</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
